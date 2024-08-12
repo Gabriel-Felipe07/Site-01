@@ -1,42 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENAI - Cursos Aprendiz-SENAI TI</title>
-</head>
-<body style="background-color: cornsilk;">
-    <div class="cabecalho" style="text-align: center;">
-        <!-- Logo do SENAI -->
-        <img src="../img/senai.svg" alt="Logo do SENAI" width="200px">
-        <!-- Título principal, Recomenda-se apenas um h1 por página -->
-        <h1>Cursos Aprendiz-SENAI</h1>
-    </div><!--cabecalho-->
-    
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: Helvetica, sans-serif;
+        }
 
-    <div class="conteudo" style="border: 1px solid black; padding: 10px; background-color: white;  width: 50%; margin-left: auto; margin-right: auto;">
-        <!-- Paragrafo explicando o tipo de curso -->
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aspernatur deserunt nulla ex. Perferendis, eos eligendi ipsa mollitia dolorum laboriosam dolores recusandae deleniti nihil, fuga ad. Ex inventore ipsum praesentium.
-            Aliquid doloribus ducimus velit autem debitis veniam necessitatibus quae repellat eum suscipit incidunt et voluptatum quidem facilis, blanditiis nihil repellendus iure omnis culpa minima saepe quasi. Aliquid, eum? Officia, facere.
-            Quae dolore dolorum, alias esse pariatur quo laborum magnam a expedita ipsum necessitatibus dolorem, aut voluptatem possimus. Aliquam, ipsum corporis. Quidem fugiat cupiditate ducimus repellat reiciendis eveniet aperiam doloremque exercitationem?
-        </p>
-        <ul>
-            <li><b>Integrador de Soluções em Nuvem</b></li>
+        body {
+            background-color: bisque;
+        }
+
+        section {
+            border: 3px solid #000;
+            margin-top: 10px;
+            padding: 24px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+        }
+
+        section article {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+
+        .container-header {
+            display: flex;
+            border: 2px solid black;
+            background-color: rgb(255, 190, 110);
+        }
+
+        header {
+            margin-left: 30%;
+            margin-right: 34%;
+        }
+
+        .titulo-header {
+            margin-left: 18%;
+        }
+
+        .container-header>.titulo-header {
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            margin-left: 60%;
+            color: darkorange;
+        }
+
+        a:hover {
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <div class="logo-senai">
+                <!-- Logo do SENAI -->
+                <img src="../img/senai.svg" alt="Logo do SENAI" width="200px">
+            </div>
+            <div class="titulo-header">
+                <!-- Título principal, Recomenda-se apenas um h1 por página -->
+                <h1>Cursos Aprendiz-SENAI</h1>
+            </div><!--titulo-header-->
+        </div><!--container-header-->
+    </header><!--header-->
+    <section>
+        <article>
+            <!-- Paragrafo explicando o tipo de curso -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aspernatur deserunt nulla ex.
+                Perferendis, eos eligendi ipsa mollitia dolorum laboriosam dolores recusandae deleniti nihil, fuga ad.
+                Ex inventore ipsum praesentium.
+                Aliquid doloribus ducimus velit autem debitis veniam necessitatibus quae repellat eum suscipit incidunt
+                et voluptatum quidem facilis, blanditiis nihil repellendus iure omnis culpa minima saepe quasi. Aliquid,
+                eum? Officia, facere.
+                Quae dolore dolorum, alias esse pariatur quo laborum magnam a expedita ipsum necessitatibus dolorem, aut
+                voluptatem possimus. Aliquam, ipsum corporis. Quidem fugiat cupiditate ducimus repellat reiciendis
+                eveniet aperiam doloremque exercitationem?
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <ul>
+                <li><b>Integrador de Soluções em Nuvem</b></li>
                 <p>
-                    O Curso de Aprendizagem Industrial ? Integrador de Soluções em Nuvem tem por objetivo proporcionar aos aprendizes a qualificação que lhes permita a criação de infraestrutura em nuvem privada e pública, aplicação de recursos de software e de segurança, de acordo com metodologias ágeis, atendendo normas e legislação vigentes, usabilidade, interatividade, integridade e segurança da informação.
+                    O Curso de Aprendizagem Industrial ? Integrador de Soluções em Nuvem tem por objetivo proporcionar
+                    aos aprendizes a qualificação que lhes permita a criação de infraestrutura em nuvem privada e
+                    pública, aplicação de recursos de software e de segurança, de acordo com metodologias ágeis,
+                    atendendo normas e legislação vigentes, usabilidade, interatividade, integridade e segurança da
+                    informação.
                 </p>
-            <li><b>Operador de Suporte Técnico em Tecnologia da Informação</b></li>
+                <li><b>Operador de Suporte Técnico em Tecnologia da Informação</b></li>
                 <p>
-                    O Curso de Aprendizagem Industrial - Operador de Suporte Técnico em Tecnologia da Informação tem por objetivo desenvolver competências profissionais voltadas à realização de serviços de apoio e de desenvolvimento de e manutenção de sistemas computacionais.
+                    O Curso de Aprendizagem Industrial - Operador de Suporte Técnico em Tecnologia da Informação tem por
+                    objetivo desenvolver competências profissionais voltadas à realização de serviços de apoio e de
+                    desenvolvimento de e manutenção de sistemas computacionais.
                 </p>
-            <li><b>Programador Full Stack</b></li>
+                <li><b>Programador Full Stack</b></li>
                 <p>
-                    O Curso de Aprendizagem Industrial - Programador Full-Stack tem por objetivo promover a formação de jovens para a atuação profissional nesta ocupação.
+                    O Curso de Aprendizagem Industrial - Programador Full-Stack tem por objetivo promover a formação de
+                    jovens para a atuação profissional nesta ocupação.
                 </p>
-        </ul>
-        <a href="../index.html" style="text-decoration: none;" >Página Principal</a>
-    </div><!--conteudo-->
-    
+            </ul>
+        </article>
+        <a href="../index.html" style="text-decoration: none;">Página Principal</a>
+    </section>  
 </body>
+
 </html>

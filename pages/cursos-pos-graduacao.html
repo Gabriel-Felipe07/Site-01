@@ -1,38 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENAI - Cursos Pós-Graduação TI</title>
-</head>
-<body style="background-color: cornsilk;">
-    <div class="cabecalho" style="text-align: center;">
-        <!-- Logo do SENAI -->
-        <img src="../img/senai.svg" alt="Logo do SENAI" width="200px">
-        <!-- Título principal, Recomenda-se apenas um h1 por página -->
-        <h1>Cursos de Pós-Graduação</h1>
-    </div><!--cabecalho-->
-    
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: Helvetica, sans-serif;
+        }
 
-    <div class="conteudo" style="border: 1px solid black; padding: 10px; background-color: white; width: 50%; margin-left: auto; margin-right: auto;">
-        <!-- Paragrafo explicando o tipo de curso -->
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aspernatur deserunt nulla ex. Perferendis, eos eligendi ipsa mollitia dolorum laboriosam dolores recusandae deleniti nihil, fuga ad. Ex inventore ipsum praesentium.
-            Aliquid doloribus ducimus velit autem debitis veniam necessitatibus quae repellat eum suscipit incidunt et voluptatum quidem facilis, blanditiis nihil repellendus iure omnis culpa minima saepe quasi. Aliquid, eum? Officia, facere.
-            Quae dolore dolorum, alias esse pariatur quo laborum magnam a expedita ipsum necessitatibus dolorem, aut voluptatem possimus. Aliquam, ipsum corporis. Quidem fugiat cupiditate ducimus repellat reiciendis eveniet aperiam doloremque exercitationem?
-        </p>
-        <ul>
-            <li><b>Data Science e Big Data Aplicados na Indústria</b></li>
+        body {
+            background-color: bisque;
+        }
+
+        section {
+            border: 3px solid #000;
+            margin-top: 10px;
+            padding: 24px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+        }
+
+        section article {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+
+        .container-header {
+            display: flex;
+            border: 2px solid black;
+            background-color: rgb(255, 190, 110);
+        }
+
+        header {
+            margin-left: 30%;
+            margin-right: 34%;
+        }
+
+        .titulo-header {
+            margin-left: 18%;
+        }
+
+        .container-header>.titulo-header {
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            margin-left: 60%;
+            color: darkorange;
+        }
+
+        a:hover {
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <div class="logo-senai">
+                <!-- Logo do SENAI -->
+                <img src="../img/senai.svg" alt="Logo do SENAI" width="200px">
+            </div>
+            <div class="titulo-header">
+                <!-- Título principal, Recomenda-se apenas um h1 por página -->
+                <h1>Cursos de Pós-Graduação</h1>
+            </div><!--titulo-header-->
+        </div><!--container-header-->
+    </header><!--header-->
+    <section>
+        <article>
+            <!-- Paragrafo explicando o tipo de curso -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aspernatur deserunt nulla ex.
+                Perferendis, eos eligendi ipsa mollitia dolorum laboriosam dolores recusandae deleniti nihil, fuga ad.
+                Ex inventore ipsum praesentium.
+                Aliquid doloribus ducimus velit autem debitis veniam necessitatibus quae repellat eum suscipit incidunt
+                et voluptatum quidem facilis, blanditiis nihil repellendus iure omnis culpa minima saepe quasi. Aliquid,
+                eum? Officia, facere.
+                Quae dolore dolorum, alias esse pariatur quo laborum magnam a expedita ipsum necessitatibus dolorem, aut
+                voluptatem possimus. Aliquam, ipsum corporis. Quidem fugiat cupiditate ducimus repellat reiciendis
+                eveniet aperiam doloremque exercitationem?
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <ul>
+                <li><b>Data Science e Big Data Aplicados na Indústria</b></li>
                 <p>
                     Desenvolver soluções integrando a Ciência de Dados à aplicações industriais inovadoras.
                 </p>
-            <li><b>Segurança em Redes Cibernéticas (Cyber Security)</b></li>
+                <li><b>Segurança em Redes Cibernéticas (Cyber Security)</b></li>
                 <p>
-                    Oferecer aos especialistas da área de automação industrial subsídios para o estabelecimento de Políticas de Segurança da Informação, com vistas a viabilizar a segurança organizacional e gerenciamento das operações, e da comunicação, minimizando vulnerabilidades ao lançar mão de sistemas de segurança lógica, classificação e controle dos ativos de informação, controles de acesso visando a segurança física, ambiental e de pessoas mantendo a integridade dos dados, sistemas e equipamentos.
+                    Oferecer aos especialistas da área de automação industrial subsídios para o estabelecimento de
+                    Políticas de Segurança da Informação, com vistas a viabilizar a segurança organizacional e
+                    gerenciamento das operações, e da comunicação, minimizando vulnerabilidades ao lançar mão de
+                    sistemas de segurança lógica, classificação e controle dos ativos de informação, controles de acesso
+                    visando a segurança física, ambiental e de pessoas mantendo a integridade dos dados, sistemas e
+                    equipamentos.
                 </p>
-        </ul>
-        <a href="../index.html" style="text-decoration: none;" >Página Principal</a>
-    </div><!--conteudo-->
-    
+            </ul>
+        </article>
+        <a href="../index.html" style="text-decoration: none;">Página Principal</a>
+    </section>
+
+
 </body>
+
 </html>

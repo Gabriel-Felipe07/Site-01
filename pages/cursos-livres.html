@@ -1,48 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENAI - Curso Livre TI</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: bisque;
+        }
+
+        section {
+            border: 3px solid #000;
+            margin-top: 10px;
+            padding: 24px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+        }
+
+        section article {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+        }
+
+        .container-header {
+            display: flex;
+            border: 2px solid black;
+            background-color: rgb(255, 190, 110);
+        }
+
+        header {
+            margin-left: 30%;
+            margin-right: 34%;
+        }
+
+        .titulo-header {
+            margin-left: 18%;
+        }
+
+        .container-header>.titulo-header {
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            margin-left: 60%;
+            color: darkorange;
+        }
+
+        a:hover {
+            color: darkred;
+        }
+    </style>
 </head>
-<body style="background-color: cornsilk;">
-    <div class="cabecalho" style="text-align: center;">
-        <!-- Logo do SENAI -->
-        <img src="../img/senai.svg" alt="Logo do SENAI" width="200px">
-        <!-- Título principal, Recomenda-se apenas um h1 por página -->
-        <h1>Cursos Livres</h1>
-    </div><!--cabecalho-->
-    
-    <div class="conteudo" style="border: 1px solid black; padding: 10px; background-color: white; width: 50%; margin-left: auto; margin-right: auto;">
-        <!-- Paragrafo explicando o tipo de curso -->
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aspernatur deserunt nulla ex. Perferendis, eos eligendi ipsa mollitia dolorum laboriosam dolores recusandae deleniti nihil, fuga ad. Ex inventore ipsum praesentium.
-            Aliquid doloribus ducimus velit autem debitis veniam necessitatibus quae repellat eum suscipit incidunt et voluptatum quidem facilis, blanditiis nihil repellendus iure omnis culpa minima saepe quasi. Aliquid, eum? Officia, facere.
-            Quae dolore dolorum, alias esse pariatur quo laborum magnam a expedita ipsum necessitatibus dolorem, aut voluptatem possimus. Aliquam, ipsum corporis. Quidem fugiat cupiditate ducimus repellat reiciendis eveniet aperiam doloremque exercitationem?
-        </p>
-        <ul><!-- criar uma lista não ordenada -->
-            <li><b>Administrador de Servdores Linux</b></li><!--Item da lista-->
+
+<body>
+    <header>
+        <div class="container-header">
+            <div class="logo-senai">
+                <!-- Logo do SENAI -->
+                <img src="../img/senai.svg" alt="Logo do SENAI" width="200px">
+            </div>
+            <div class="titulo-header">
+                <!-- Título principal, Recomenda-se apenas um h1 por página -->
+                <h1>Cursos Livres</h1>
+            </div><!--titulo-header-->
+        </div><!--container-header-->
+    </header><!--header-->
+
+    <section>
+        <article>
+            <!-- Paragrafo explicando o tipo de curso -->
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus aspernatur deserunt nulla ex.
+                Perferendis, eos eligendi ipsa mollitia dolorum laboriosam dolores recusandae deleniti nihil, fuga ad.
+                Ex
+                inventore ipsum praesentium.
+                Aliquid doloribus ducimus velit autem debitis veniam necessitatibus quae repellat eum suscipit incidunt
+                et
+                voluptatum quidem facilis, blanditiis nihil repellendus iure omnis culpa minima saepe quasi. Aliquid,
+                eum?
+                Officia, facere.
+                Quae dolore dolorum, alias esse pariatur quo laborum magnam a expedita ipsum necessitatibus dolorem, aut
+                voluptatem possimus. Aliquam, ipsum corporis. Quidem fugiat cupiditate ducimus repellat reiciendis
+                eveniet
+                aperiam doloremque exercitationem?
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <ul><!-- criar uma lista não ordenada -->
+                <li><b>Administrador de Servdores Linux</b></li><!--Item da lista-->
                 <p>
-                    O Curso de Especialização Profissional Administrador de Servidores Linux tem por objetivo o desenvolvimento de competências relativas à análise, planejamento, configuração, manutenção e monitoramento de redes utilizando Servidores Linux.
+                    O Curso de Especialização Profissional Administrador de Servidores Linux tem por objetivo o
+                    desenvolvimento
+                    de competências relativas à análise, planejamento, configuração, manutenção e monitoramento de redes
+                    utilizando Servidores Linux.
                 </p>
-            <li><b>Adobe Illustrator</b></li>
+                <li><b>Adobe Illustrator</b></li>
                 <p>
-                    O curso de Aperfeiçoamento Profissional de Adobe Illustrator tem por objetivo o desenvolvimento de competências relativas à aplicação de uso das ferramentas e menus, edição, retoque de imagens, como também, uso de camadas, máscaras e filtros, criação de gráficos, vetores, animações e efeitos especiais.
+                    O curso de Aperfeiçoamento Profissional de Adobe Illustrator tem por objetivo o desenvolvimento de
+                    competências relativas à aplicação de uso das ferramentas e menus, edição, retoque de imagens, como
+                    também,
+                    uso de camadas, máscaras e filtros, criação de gráficos, vetores, animações e efeitos especiais.
                 </p>
-            <li><b>Adobe Photoshop</b></li>
+                <li><b>Adobe Photoshop</b></li>
                 <p>
-                    O curso de Aperfeiçoamento Profissional de Adobe Photoshop tem por objetivo o desenvolvimento de competências relativas à criação e edição de imagens digitais, aplicando correção de imperfeições de imagens, melhorando a cor, contraste, adicionando efeitos especiais, criando designs de logotipos, flyers, cartazes, websites e outros materiais gráficos, como também preparando o aluno para uma possível certificação em Adobe Certified Associate (ACA) in Photoshop CC.
+                    O curso de Aperfeiçoamento Profissional de Adobe Photoshop tem por objetivo o desenvolvimento de
+                    competências relativas à criação e edição de imagens digitais, aplicando correção de imperfeições de
+                    imagens, melhorando a cor, contraste, adicionando efeitos especiais, criando designs de logotipos,
+                    flyers,
+                    cartazes, websites e outros materiais gráficos, como também preparando o aluno para uma possível
+                    certificação em Adobe Certified Associate (ACA) in Photoshop CC.
                 </p>
-            <li><b>AUTO CAD 2D</b></li>
+                <li><b>AUTO CAD 2D</b></li>
                 <p>
-                    O Curso de Aperfeiçoamento Profissional AutoCad 2D tem por objetivo o desenvolvimento de competências relativas à operação do AutoCad em sua plataforma 2D.
+                    O Curso de Aperfeiçoamento Profissional AutoCad 2D tem por objetivo o desenvolvimento de
+                    competências
+                    relativas à operação do AutoCad em sua plataforma 2D.
                 </p>
-            <li><b>AUTO CAD 3D</b></li>
+                <li><b>AUTO CAD 3D</b></li>
                 <p>
-                    O Curso de Aperfeiçoamento Profissional AutoCAD 3D tem por objetivo o desenvolvimento de competências relativas à operação do AutoCAD para criação de modelos em 3D.
+                    O Curso de Aperfeiçoamento Profissional AutoCAD 3D tem por objetivo o desenvolvimento de
+                    competências
+                    relativas à operação do AutoCAD para criação de modelos em 3D.
                 </p>
-        </ul>
-        <a href="../index.html" style="text-decoration: none;" >Página Principal</a>
-    </div><!--conteudo-->
+            </ul>
+        </article>
+        <a href="../index.html">Página Principal</a>
+    </section>
+
 </body>
+
 </html>
