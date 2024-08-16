@@ -7,60 +7,140 @@
     <title>SENAI - Curso Livre TI</title>
     <style>
         * {
-            padding: 0;
             margin: 0;
+            padding: 0;
             box-sizing: border-box;
-            font-size: 20px;
-            font-family: Helvetica, sans-serif;
+            font-family: 'Arial', sans-serif;
         }
 
         body {
-            background-color: bisque;
-        }
-
-        section {
-            border: 3px solid #000;
-            margin-top: 10px;
-            padding: 24px;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            background-color: rgb(255, 255, 255);
-        }
-
-        section article {
-            background-color: rgb(255, 255, 255);
-            padding: 10px;
+            background-color: #f9f9f9;
+            color: #444;
         }
 
         .container-header {
             display: flex;
-            border: 2px solid black;
-            background-color: rgb(255, 190, 110);
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #0062cc, #003366);
+            padding: 20px;
+            border-bottom: 2px solid #000;
         }
 
-        header {
-            margin-left: 30%;
-            margin-right: 34%;
+        .container-header .logo-senai {
+            margin-right: 20px;
         }
 
-        .titulo-header {
-            margin-left: 18%;
+        .titulo-header h1 {
+            font-size: 32px;
+            color: #fff;
         }
 
-        .container-header>.titulo-header {
-            margin-top: 20px;
+        section {
+            border: 3px solid #000;
+            margin: 20px auto;
+            padding: 24px;
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
         }
 
         a {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #007BFF;
             text-decoration: none;
-            margin-left: 60%;
-            color: darkred;
         }
 
         a:hover {
-            color: darkorange;
+            color: #0056b3;
+        }
+
+        footer {
+            background: linear-gradient(to right, #0062cc, #003366);
+            padding: 20px;
+            border-top: 3px solid #000;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            gap: 20px;
+            color: #fff;
+        }
+
+        .footer-logo img {
+            max-width: 100%;
+        }
+
+        .footer-links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer-links ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .footer-links ul li a:hover {
+            color: #0056b3;
+        }
+
+        .footer-social p {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .footer-social a {
+            margin-right: 10px;
+        }
+
+        .footer-social img {
+            vertical-align: middle;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #444;
+        }
+
+        footer a, li{
+            color: #fff;
         }
     </style>
 </head>
@@ -75,9 +155,9 @@
             <div class="titulo-header">
                 <!-- Título principal, Recomenda-se apenas um h1 por página -->
                 <h1>Cursos Livres</h1>
-            </div><!--titulo-header-->
-        </div><!--container-header-->
-    </header><!--header-->
+            </div><!-- titulo-header -->
+        </div><!-- container-header -->
+    </header><!-- header -->
 
     <section>
         <article>
@@ -99,24 +179,25 @@
             </p>
         </article>
     </section>
+
     <section>
         <article>
             <ul><!-- criar uma lista não ordenada -->
-                <li><b>Administrador de Servdores Linux</b></li><!--Item da lista-->
+                <li>Administrador de Servidores Linux</li><!-- Item da lista -->
                 <p>
                     O Curso de Especialização Profissional Administrador de Servidores Linux tem por objetivo o
                     desenvolvimento
                     de competências relativas à análise, planejamento, configuração, manutenção e monitoramento de redes
                     utilizando Servidores Linux.
                 </p>
-                <li><b>Adobe Illustrator</b></li>
+                <li>Adobe Illustrator</li>
                 <p>
                     O curso de Aperfeiçoamento Profissional de Adobe Illustrator tem por objetivo o desenvolvimento de
                     competências relativas à aplicação de uso das ferramentas e menus, edição, retoque de imagens, como
                     também,
                     uso de camadas, máscaras e filtros, criação de gráficos, vetores, animações e efeitos especiais.
                 </p>
-                <li><b>Adobe Photoshop</b></li>
+                <li>Adobe Photoshop</li>
                 <p>
                     O curso de Aperfeiçoamento Profissional de Adobe Photoshop tem por objetivo o desenvolvimento de
                     competências relativas à criação e edição de imagens digitais, aplicando correção de imperfeições de
@@ -125,13 +206,13 @@
                     cartazes, websites e outros materiais gráficos, como também preparando o aluno para uma possível
                     certificação em Adobe Certified Associate (ACA) in Photoshop CC.
                 </p>
-                <li><b>AUTO CAD 2D</b></li>
+                <li>AUTO CAD 2D</li>
                 <p>
                     O Curso de Aperfeiçoamento Profissional AutoCad 2D tem por objetivo o desenvolvimento de
                     competências
                     relativas à operação do AutoCad em sua plataforma 2D.
                 </p>
-                <li><b>AUTO CAD 3D</b></li>
+                <li>AUTO CAD 3D</li>
                 <p>
                     O Curso de Aperfeiçoamento Profissional AutoCAD 3D tem por objetivo o desenvolvimento de
                     competências
@@ -139,9 +220,33 @@
                 </p>
             </ul>
         </article>
-        <a href="../index.html">Página Principal</a>
+        <a href="main.html">Página Principal</a>
     </section>
 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="../img/senai.svg" alt="Logo do SENAI" width="150px">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="politica.html">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <p>Siga-nos nas redes sociais:</p>
+                <a href="https://facebookfalsosolo.onrender.com/" target="_blank"><img src="../img/facebook-icon.png" alt="Facebook" width="50px"></a>
+                <a href="https://www.instagram.com/belentani_biel/" target="_blank"><img src="../img/instagram-icon.png" alt="Instagram" width="50px"></a>
+                <a href="" target="_blank"><img src="../img/twitter-icon.jpg" alt="Twitter" width="50px"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p style="color: #fff;">&copy; 2024 SENAI - Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
